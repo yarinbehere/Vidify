@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Vidify</string>
+    <string name="video_name">Video name</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_name">Sort by Name</string>
+    <string name="sort_by_date">Sort by Date</string>
+    <string name="sort_by_recent">Sort by Recent</string>
+    <string name="hide_unfavorite">Hide Unfavorite</string>
+    <string name="hide_completed">Hide Completed</string>
+    <string name="delete_all_completed">Delete all completed</string>
 </resources>
