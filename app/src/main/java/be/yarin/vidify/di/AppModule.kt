@@ -22,9 +22,9 @@ object AppModule {
         app: Application,
         callback: VideoDatabase.Callback
     ) = Room.databaseBuilder(app, VideoDatabase::class.java, "video_database")
-            .fallbackToDestructiveMigration()
-            .addCallback(callback)
-            .build()
+        .fallbackToDestructiveMigration()
+        .addCallback(callback)
+        .build()
 
     @Provides
     fun provideVideoDao(db: VideoDatabase) = db.videoDao()

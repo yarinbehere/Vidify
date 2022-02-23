@@ -11,11 +11,12 @@
         android:layout_height="match_parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fb_add_vid"
+        android:id="@+id/fb_edit_vid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="20dp"
-        android:src="@drawable/ic_baseline_add_24" />
+        android:src="@drawable/ic_baseline_edit_24"
+        android:visibility="gone" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
